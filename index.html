@@ -704,7 +704,7 @@
       const codeBlock2 = document.querySelector("#code-block");
       let code;
 
-      fetch("/dist/bookmarklet.min.js")
+      fetch("https://000xs.github.io/screenshot-bookmarklet/dist/bookmarklet.min.js")
         .then((response) => response.text())
         .then((jsCode) => {
           codeBlock.innerHTML = jsCode;
